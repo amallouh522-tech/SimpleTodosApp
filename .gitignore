@@ -1,0 +1,79 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# React Native
+*.jsbundle
+
+# Android
+.gradle/
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+android/.cxx/
+android/app/.cxx/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/xcuserdata/
+ios/*.xcuserstate
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDE
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# React Native / Expo generated files
+coverage/
+dist/
+
+# Secrets / credentials
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
